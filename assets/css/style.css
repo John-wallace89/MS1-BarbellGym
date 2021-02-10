@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+
+/*--------------------------------------Colors*/
+.bg-color-header {
+    background-image: url(../images/b+w\ background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bg-color-nav {
+    background-color: #0f1113;
+    padding: 0;
+    margin: 0;
+}
+/*--------------------------------------Images*/
+.hero-image {
+    height: 300px;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 30%;
+
+}
+/*--------------------------------------Header*/
+
+.header-block {
+    height: 300px;
+    
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+.menuitem {
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 100px;
+    padding-top: 20px;
+    
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    letter-spacing: 2px;
+    
+}
+
+/*--------------------------------------Nav bar transitions*/
+
+.hvr-sweep-to-top:before {
+    background-color: #fafafa;
+    height: 100%;
+}
+
+.menuitem a:hover {
+    color: #0f1113;
+}
+
+
+
