@@ -81,4 +81,11 @@ HTML5
 CSS3
 
 Frameworks/libraries/programs - 
-https://favicon.io/favicon-converter/ - Used to create logo for Title
+https://favicon.io/favicon-converter/ - Used to create logo for title.
+
+https://www.rawpixel.com/image/2337562/free-illustration-png-frame-black-texture - Used for background image.
+
+https://fonts.google.com/ - used for font design.
+
+bootstrap 4.3.1 - https://getbootstrap.com/docs/4.3/getting-started/introduction/ - used to help with responsiveness
+of the site.
