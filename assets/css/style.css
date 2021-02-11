@@ -17,13 +17,21 @@
 .bg-color-footer {
     background-color: #0f1113;
 }
+
+.bg-color-home {
+    background-color: #0f1113;
+}
 /*--------------------------------------Images*/
 .hero-image {
     height: 300px;
     width: 100%;
     opacity: 0.9;
     border-radius: 30%;
+}
 
+.ethos-image {
+    padding: 0;
+    margin: 0;
 }
 /*--------------------------------------Header*/
 
@@ -86,10 +94,29 @@ ul {
     color: #0f1113;
 }
 
-a 
-.footer-heading:hover {
+a .footer-heading:hover {
     text-decoration: underline;
     color: #fafafa;
+}
+
+/*-------------------------------------Section Home*/
+
+.home-header {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.ethos {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    color: #fafafa;
+    font-size: 22px;
+    font-weight: 300;
 }
 
 /*--------------------------------------Footer*/
