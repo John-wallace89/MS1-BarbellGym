@@ -13,6 +13,10 @@
     padding: 0;
     margin: 0;
 }
+
+.bg-color-footer {
+    background-color: #0f1113;
+}
 /*--------------------------------------Images*/
 .hero-image {
     height: 300px;
@@ -69,7 +73,9 @@ ul {
     
 }
 
-/*--------------------------------------Nav bar transitions*/
+/*--------------------------------------Nav transitions*/
+
+
 
 .hvr-sweep-to-top:before {
     background-color: #fafafa;
@@ -80,5 +86,49 @@ ul {
     color: #0f1113;
 }
 
+a 
+.footer-heading:hover {
+    text-decoration: underline;
+    color: #fafafa;
+}
+
+/*--------------------------------------Footer*/
+
+.footer-col {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.footer-col a {
+    text-decoration: none;
+}
 
 
+.footer-heading {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+.social-icon i{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fafafa;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    
+}
+
+.social-icon i:hover {
+    transform: scale(1.25);
+    color: #fafafa;
+}
