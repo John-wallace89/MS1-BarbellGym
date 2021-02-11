@@ -88,4 +88,7 @@ https://www.rawpixel.com/image/2337562/free-illustration-png-frame-black-texture
 https://fonts.google.com/ - used for font design.
 
 bootstrap 4.3.1 - https://getbootstrap.com/docs/4.3/getting-started/introduction/ - used to help with responsiveness
-of the site.
+of the site as the JS query for the hover inmation on the nav bar.
+
+W3 schools.com - https://www.w3schools.com/howto/howto_css_zoom_hover.asp used for hover animation for social links 
+in footer.
