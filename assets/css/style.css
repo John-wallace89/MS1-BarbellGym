@@ -23,7 +23,12 @@
     margin: 0;
     padding: 0;
 }
+
+.bg-color-about-me {
+    background-color: #fafafa;
+}
 /*--------------------------------------Images*/
+
 .hero-image {
     height: 300px;
     width: 100%;
@@ -32,10 +37,8 @@
 }
 
 .ethos-image {
-    display: inline-block;
-    margin: 0;
-    padding-top: 1rem;
-    min-height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 2rem ;
 }
 /*--------------------------------------Header*/
 
@@ -125,7 +128,7 @@ a .footer-heading:hover {
 .ethos-title {
     font-family: "Big Shoulders Stencil Text", sans-serif;
     color: #fafafa;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 400;
     text-align: center;
     margin-top: 20px;
@@ -134,14 +137,39 @@ a .footer-heading:hover {
 .ethos-text {
     font-family: "Big Shoulders Stencil Text", sans-serif;
     color: #fafafa;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 300;
     text-align: center;
     padding: 1rem ;
 
 }
+/*-------------------------------------Section about me*/
+.about-me-header {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
 
+.about-me-title {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
 
+}
 
 /*--------------------------------------Footer*/
 
