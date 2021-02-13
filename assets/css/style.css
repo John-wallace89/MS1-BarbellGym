@@ -133,7 +133,7 @@ a .footer-heading:hover {
     font-size: 30px;
     font-weight: 400;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .ethos-text {
@@ -169,27 +169,64 @@ a .footer-heading:hover {
 
 /*-------------------------------------Section gym info*/
 
-.gym-info-header {
+.gym-info {
     padding: 0;
     margin: 0;
 }
+
+.location-header {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.address-title {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem ;
+}
+
+.address-text {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    color: #fafafa;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    padding: 1rem ;
+}
+
+
 
 /*-------------------------------------Gym info carousel*/
 
 .gym-slideshow {
     background-color: #0f1113;
+    padding: 0;
+    margin: 0;
 }
 .img-fluid {
     width: 100%;
-    height: 400px;
+    height: auto;
     object-fit: fill;
     display: flex;
     justify-content: center;
 }
+
+/* copied this code from https://www.hyde-design.co.uk/joomla-bites/80-create-a-css-slideshow-no-javascript-required#:~:text=If%20you're%20only%20after,slideshow%20using%20CSS%20trickery%20alone*/
 .fling-minislide {
     width:100%;
     height:auto;
-    padding-bottom: 40%;
+    padding-bottom: 30%;
     overflow:hidden;
     position:relative;
     display: flex;
@@ -208,7 +245,10 @@ a .footer-heading:hover {
 .fling-minislide img:nth-child(2){animation-delay:10s;}
 .fling-minislide img:nth-child(1){animation-delay:15s;}
 
-/*--------------------------------------Footer*/
+/*---------------------------------------------------------------gym info map*/
+
+
+/*---------------------------------------------------------------Footer*/
 
 .footer-col {
     display: inline-block;
