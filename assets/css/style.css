@@ -42,6 +42,39 @@
     margin-bottom: 0;
     padding-bottom: 2rem ;
 }
+
+.bg-img-insta {
+    background-image: url(../images/screenshots/bb_insta.JPG);
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    opacity: 0.8;
+    padding-right: 2px;
+    padding-left: 2px;
+    background-repeat: no-repeat;
+}
+
+.bg-img-insta-gear {
+    background-image: url(../images/screenshots/bbg_insta.JPG);
+    background-position: center;
+    width: 300px ;
+    height: 300px;
+    opacity: 0.8;
+    padding-right: 2px;
+    padding-left: 2px;
+    background-repeat: no-repeat;
+}
+
+.bg-img-fb {
+    background-image: url(../images/screenshots/bb_fb.JPG);
+    background-position: center;
+    min-height: 300px;
+    width: 100%;
+    opacity: 0.5;
+    padding-right: 2px;
+    padding-left: 2px;
+    background-repeat: no-repeat;
+}
 /*--------------------------------------Header*/
 
 .header-block {
@@ -247,6 +280,24 @@ a .footer-heading:hover {
 
 /*---------------------------------------------------------------gym info map*/
 
+
+/*------------------------------------------------------------------Contact Us*/
+.social-link-header {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0f1113;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-top: 16rem;
+}
+
+.social-link a {
+    text-decoration: none;
+}
 
 /*---------------------------------------------------------------Footer*/
 
