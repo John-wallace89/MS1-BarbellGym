@@ -43,38 +43,22 @@
     padding-bottom: 2rem ;
 }
 
-.bg-img-insta {
-    background-image: url(../images/screenshots/bb_insta.JPG);
-    background-position: center;
-    width: 300px;
+.social-link-insta img {
+    padding: 0;
+    margin: 0;
     height: 300px;
-    opacity: 0.8;
-    padding-right: 2px;
-    padding-left: 2px;
-    background-repeat: no-repeat;
+    max-width: 400px;
 }
 
-.bg-img-insta-gear {
-    background-image: url(../images/screenshots/bbg_insta.JPG);
-    background-position: center;
-    width: 300px ;
-    height: 300px;
-    opacity: 0.8;
-    padding-right: 2px;
-    padding-left: 2px;
-    background-repeat: no-repeat;
+.social-link-fb img {
+    padding: 0;
+    margin: 0;
+    max-height: 500px;
+    max-width: 800px;
 }
 
-.bg-img-fb {
-    background-image: url(../images/screenshots/bb_fb.JPG);
-    background-position: center;
-    min-height: 300px;
-    width: 100%;
-    opacity: 0.5;
-    padding-right: 2px;
-    padding-left: 2px;
-    background-repeat: no-repeat;
-}
+
+
 /*--------------------------------------Header*/
 
 .header-block {
@@ -282,22 +266,12 @@ a .footer-heading:hover {
 
 
 /*------------------------------------------------------------------Contact Us*/
-.social-link-header {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: #0f1113;
-    text-transform: uppercase;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-left: 1rem;
-    padding-top: 16rem;
-}
 
-.social-link a {
+.contact-us a {
     text-decoration: none;
 }
+
+
 
 /*---------------------------------------------------------------Footer*/
 
