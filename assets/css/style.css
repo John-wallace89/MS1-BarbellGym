@@ -228,23 +228,11 @@ a .footer-heading:hover {
 
 /*-------------------------------------Gym info carousel*/
 
-.gym-slideshow {
-    background-color: #0f1113;
-    padding: 0;
-    margin: 0;
-}
-.img-fluid {
-    width: 100%;
-    height: auto;
-    object-fit: fill;
-    display: flex;
-    justify-content: center;
-}
 
 /* copied this code from https://www.hyde-design.co.uk/joomla-bites/80-create-a-css-slideshow-no-javascript-required#:~:text=If%20you're%20only%20after,slideshow%20using%20CSS%20trickery%20alone*/
 .fling-minislide {
     width:100%;
-    height:auto;
+    height: auto;
     padding-bottom: 30%;
     overflow:hidden;
     position:relative;
@@ -253,9 +241,12 @@ a .footer-heading:hover {
 }
 
 .fling-minislide img {
+    max-height: 500px;
+    object-fit: fill;
     position:absolute;
     animation:fling-minislide 20s infinite;
     opacity:0;
+    
 }
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
@@ -285,6 +276,31 @@ a .footer-heading:hover {
     padding: 1rem;
     text-decoration: underline;
 }
+
+
+/*---------------------------------------------------------------Barbell classes*/
+
+@media screen and (max-width: 800px){
+
+    #barbell-brothers-slide {
+        background-image: url(../images/screenshots/bbrothers_1.JPG);
+    }
+
+    #barbell-babes-slide {
+        background-image: url(../images/screenshots/bbabes_2.JPG);
+    }
+
+    .fling-minislide{
+        min-height: 300px
+    }
+    .fling-minislide
+    img {
+        visibility: hidden;
+        
+
+    }
+}
+
 
 
 
