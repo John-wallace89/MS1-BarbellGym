@@ -151,6 +151,7 @@ a .footer-heading:hover {
     font-weight: 400;
     text-align: center;
     margin-top: 30px;
+    text-transform: uppercase;
 }
 
 .ethos-text {
@@ -191,7 +192,7 @@ a .footer-heading:hover {
     margin: 0;
 }
 
-.location-header {
+.location-header{
     font-family: "Big Shoulders Stencil Text", sans-serif;
     color: #fafafa;
     font-size: 40px;
@@ -202,6 +203,7 @@ a .footer-heading:hover {
     letter-spacing: 2px;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    text-decoration: underline;
 }
 
 .address-title {
@@ -269,6 +271,19 @@ a .footer-heading:hover {
 
 .contact-us a {
     text-decoration: none;
+}
+
+.social-header {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    color: #fafafa;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    padding: 1rem;
+    text-decoration: underline;
 }
 
 
