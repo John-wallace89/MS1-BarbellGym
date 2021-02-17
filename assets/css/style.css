@@ -18,6 +18,12 @@
         background-position: center;
     }
 
+    #barbell-gym-slide {
+        background-image: url(../images/photos/Logo4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
 
     .fling-minislide{
         min-height: 300px
