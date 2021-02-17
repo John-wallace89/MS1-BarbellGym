@@ -326,6 +326,16 @@ a {
     
     color: #fafafa;
 }
+/*-----------------------------------------------------------------Barbell gear*/
+
+.barbell-gear-header {
+    background-image: url(../images/b+w\ background.jpg)
+}
+
+.barbell-gear-video {
+    max-height:500px;
+    max-width: 100%;
+}
 
 /*------------------------------------------------------------------Contact Us*/
 
