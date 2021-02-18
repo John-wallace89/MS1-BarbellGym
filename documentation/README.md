@@ -1,4 +1,4 @@
-The Barbell Gym
+<h1>The Barbell Gym</h1>
 
 This is my submission for Milestone project 1. The Barbell Gym is the main site for the Barbell Gym business,
 an independently owned gym providing various strength and fitness classes and a line of merchandise. The purpose 
