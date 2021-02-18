@@ -31,8 +31,6 @@
     .fling-minislide
     img {
         visibility: hidden;
-        
-
     }
 }
 
@@ -334,8 +332,15 @@ a {
 
 .barbell-gear-video {
     max-height:500px;
-    max-width: 100%;
+    width: 100%;
 }
+
+.barbell-shirts {
+    padding-top: 5rem;
+}
+
+
+
 
 /*------------------------------------------------------------------Contact Us*/
 
