@@ -7,7 +7,7 @@ an independently owned gym providing various strength and fitness classes and a 
 of this site is to increase brand awareness, advertise the services and products available and how and where to 
 get in touch with the gym.
 
-<!Link to live site here>
+[View live project here](https://john-wallace89.github.io/MS1-BarbellGym/)
 
 <h3 style="text-align: center">User Experience (UX)</h3>
 
@@ -117,13 +117,13 @@ No errors were found
 
 <h3>Testing user stories</h3>
 
-1. [Home]()
-2. [The Wolf Pit]()
-3. [What We Do]()
-4. [Barbell Gear]()
-5. [Contact Us]()
+1. [Home](https://john-wallace89.github.io/MS1-BarbellGym/index.html)
+2. [The Wolf Pit](https://john-wallace89.github.io/MS1-BarbellGym/barbellgym.html)
+3. [What We Do](https://john-wallace89.github.io/MS1-BarbellGym/barbellclasses.html)
+4. [Barbell Gear](https://john-wallace89.github.io/MS1-BarbellGym/barbellgear.html)
+5. [Contact Us](https://john-wallace89.github.io/MS1-BarbellGym/contactus.html)<br>
 
-1. * User Story 1<br>
+* User Story 1<br>
    *As a business, I want to provide an introduction to my business and brand for new
    customers.*
 
@@ -131,7 +131,7 @@ No errors were found
    an introductory message about the business, the ethos and accompanying images. You can see the site is 
    structured around the brand.
 
-   * User Story 2<br>
+* User Story 2<br>
    *As a personal trainer/business I want to provide a bit of background to myself and my
    qualifications, so that customers can feel confident in me and my brand.*
 
@@ -139,7 +139,7 @@ No errors were found
    owner, with details about the owners experience and qualifications in order to provide confidence in the
    product.
 
-   * User Story 3<br>
+* User Story 3<br>
    *As a customer, I want to be able to land on the homepage and know what is the 'Barbell
    Gym' who is it for and what does it represent AND who is running it.*
 
@@ -147,7 +147,7 @@ No errors were found
    As you scroll through the homepage you are provided with text providing more detail on what the business
    is and wo runs it.
 
-2. * User Story 4<br>
+* User Story 4<br>
      As a customer, I want to know what the facilties for the
      Barbell gym like and what is available to me.
 
@@ -155,14 +155,14 @@ No errors were found
      of the gym so I can see waht it looks like and what equipment is there. this is followed by text describing
      what kind of gym it is.  
 
-   * User Story 5<br>
+* User Story 5<br>
      As a customer, I would like to know the location of the 
      gym, it's address and it's location on google maps.
 
      ii. As a customer on the 'The Wolf Pit' gym, When I scroll down, I can see a clear section labelled 'Location'
      with the address and embedded google maps with the location of the gym so I can see exactly where the gym is located.
 
-   * User Story 6<br>
+* User Story 6<br>
      As a business I would like to show potential customers
      what facilities are available at the gym and provide the
      gym location so the gym is easy to find.
@@ -170,7 +170,7 @@ No errors were found
      iii. As a business, the location of my business is clearly presented on an embedded google maps, and
      the address is provided.
 
-3. * User Story 7<br>
+* User Story 7<br>
      As a customer I would like to know what services are available
      to me, what they include and how much they are.
 
@@ -181,7 +181,7 @@ No errors were found
      what I can expect if I attend. This is followed by the duration and cost highlighted in bold font to draw my 
      attention to essential information.
 
-   * User Story 8<br>
+* User Story 8<br>
      As a customer I want to know when I can access these services and how I can enquire about 
      them.
 
@@ -189,7 +189,7 @@ No errors were found
      me to the contact us page where I can enquire about any of the services provided. This is provided beneath each
      class so the customer does not have to scroll through the whole page if they wish to enquire.
 
-   * User Story 9<br>
+* User Story 9<br>
      As a business, I want customers to see the range of services
      provided, how much they cost, when they're happening, and how to enquire about them.
 
@@ -197,7 +197,7 @@ No errors were found
      accompanied by supporting images showing the success of these services. Cost and duration are clearly shown
      beneath each service section, directing customers to the important information.
 
-4. * User Story 10<br>
+* User Story 10<br>
      As a customer, I want to see the what merchandise is available from
      and how I can enquire about obtaining/purchasing this merchandise.
 
@@ -206,7 +206,7 @@ No errors were found
      it's price and a link directing us to the contact us page beneath item informing me of how to get in touch if I wish to
      make a purchase.
 
-   * User Story 11<br>
+* User Story 11<br>
      As a business, I want to be able to advertise the merchandise I have available, provide
      information on this merchandise and advise clients how they it be obtained.
 
@@ -214,3 +214,30 @@ No errors were found
      the cost and any offer are clear and in bold directing the customers attention to key information,
      with a link to the contac us page beneath each item so the customer doesn't have to scroll through the
      full page to enquire about a product.
+
+<h3>Further testing:</h3>
+     Tested extensively over a range of devices using dev tools and tested on Safari, Chrome and Edge.
+     See screenshots from testing [here](https://github.com/John-wallace89/MS1-BarbellGym/blob/c803cd9a106dbf7ca7308387e5d000bed413bf97/documentation/screenshots).<br>
+     Extensive testing was done to ensure there were no broken links.<br>
+     Site was shared with product owner and friends for review, issues with user experience.
+
+* Bugs<br>
+     3 bugs were found:<br>
+     1. Bug - Media query wasn't updated with new file path when CSS was being tidied and
+     screenshots folder was removed from assets folder [screenshot for bug](https://github.com/John-wallace89/MS1-BarbellGym/blob/c803cd9a106dbf7ca7308387e5d000bed413bf97/documentation/bugs/bug_1_iphonex_barbellclasses.JPG).
+     Fix - updated file path in media query in CSS.
+     2. Bug - Title above video isn't rendering correctly above video on mobile (text is wrapping)
+     [screenshot for bug 2](https://github.com/John-wallace89/MS1-BarbellGym/blob/8b275ee9e22a99ce03adaf637792253fe79f6880/documentation/bugs/bug_2_galaxys5_barbellgear.JPG)
+     Fix - created class to target heading making font-size smaller allowing it to render on one line for all devices.
+     3. Bug - accidentally deleted warning message from contact us page when updating header for all pages.
+     [screenshot for bug 3](https://github.com/John-wallace89/MS1-BarbellGym/blob/8b275ee9e22a99ce03adaf637792253fe79f6880/documentation/bugs/bug_3screenshot_contactus_desktop_1.JPG)
+     Fix - added warning message back into contact us page.
+
+* Changes from design: <br>
+There were 2 changes from the original designs provided in the wireframes:<br>
+1. The nav bar in mobile view is in a grid view and in 2 separate rows in mobile view instead of one
+row. This was done so the navigation CTA could remain clear and was a more aesthetically pleasing design.
+2. The barbell gear products were displayed in their own row, rather than side by side as shown in the
+wireframes. This is because there are 4 product groups total and no shop functionality as of yet, therefore
+it seemed more appropriate to make more space for images and information about the products rather than  give
+it a typical shop layout.
