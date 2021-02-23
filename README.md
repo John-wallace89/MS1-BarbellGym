@@ -241,3 +241,69 @@ row. This was done so the navigation CTA could remain clear and was a more aesth
 wireframes. This is because there are 4 product groups total and no shop functionality as of yet, therefore
 it seemed more appropriate to make more space for images and information about the products rather than  give
 it a typical shop layout.
+
+<h1 style="text-align: center">Deployment</h1>
+
+<h3>GitHub Pages</h3>
+The project was deployed to GitHub Pages using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+Scroll down the Settings page until you locate the "GitHub Pages" Section.
+Under "Source", click the dropdown called "None" and select "Master Branch".
+The page will automatically refresh.
+Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+You should now have a copy of the original repository in your GitHub account.
+Making a Local Clone
+Log in to GitHub and locate the GitHub Repository
+Under the repository name, click "Clone or download".
+To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+Open Git Bash
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Press Enter. Your local clone will be created.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+<h1 style="text-align: center">Credits</h1>
+
+<h3>Code</h3>
+Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+W3 schools: W3 schools was used to create the alert message on the Contact us page. Tutorial
+can be found [here](https://www.w3schools.com/howto/howto_js_alert.asp).
+
+Hyde-design: Hyde-design was used to create the slideshow using CSS3. Tutorial can be found
+[here](https://www.hyde-design.co.uk/joomla-bites/80-create-a-css-slideshow-no-javascript-required#:~:text=If%20you're%20only%20after,slideshow%20using%20CSS%20trickery%20alone).
+
+Code Institute: Code institute was referred back to aid in creating the hover animation for the nav bar.
+
+
+
+<h3>Content</h3>
+All content was written by the developer.
+
+
+<h3>Media</h3>
+All Images were provided by the Product Owner, Gavin Smith and the Barbell Gym with the exception
+of the background image was taken from Raw Pixel.
+
+<h3>Acknowledgements</h3>
+My mentor Aaron for his support and expertise.<br>
+
+Gavin Smith and the Barbell Gym for trusting me with their brand and letting me use it for this
+project.
+
+Tutor support at Code Institute for their support.
