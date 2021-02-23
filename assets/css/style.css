@@ -1,444 +1,450 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
-
 /*--------------------------------------Backgrounds*/
+
 .bg-color-header {
-    background-image: url(../images/b+w\ background.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
+	background-image: url(../images/b+w\ background.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .bg-color-nav {
-    background-color: #0f1113;
-    padding: 0;
-    margin: 0;
+	background-color: #0f1113;
+	padding: 0;
+	margin: 0;
 }
 
 .bg-color-footer {
-    background-color: #0f1113;
+	background-color: #0f1113;
 }
 
 .bg-color-home {
-    background-color: #0f1113;
-    margin: 0;
-    padding: 0;
+	background-color: #0f1113;
+	margin: 0;
+	padding: 0;
 }
 
 .bg-color-gym {
-    background-color: #0f1113;
-    margin: 0;
-    padding: 0;
+	background-color: #0f1113;
+	margin: 0;
+	padding: 0;
 }
+
+
 /*--------------------------------------Images*/
 
 .hero-image {
-    height: 300px;
-    width: 100%;
-    opacity: 0.9;
-    border-radius: 30%;
+	height: 300px;
+	width: 100%;
+	opacity: 0.9;
+	border-radius: 30%;
 }
 
 .ethos-image {
-    margin-bottom: 0;
-    padding-bottom: 2rem ;
+	margin-bottom: 0;
+	padding-bottom: 2rem;
 }
 
 .social-link-insta img {
-    padding: 0;
-    margin: 0;
-    height: 300px;
-    max-width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 300px;
+	max-width: 100%;
 }
 
 .social-link-fb img {
-    padding: 0;
-    margin: 0;
-    max-height: 500px;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    
+	padding: 0;
+	margin: 0;
+	max-height: 500px;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
 }
-
 
 
 /*--------------------------------------Header*/
 
 .header-block {
-    height: 300px;
-    width: 100%;
-    
+	height: 300px;
+	width: 100%;
 }
 
 ul {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .list-inline-item:not(:last-child) {
-    margin: 0;
+	margin: 0;
 }
 
 .menucontainer {
-    font-size: 0;
+	font-size: 0;
 }
 
 #nav {
-    width: 100%;
+	width: 100%;
 }
 
 #nav li {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    text-transform: uppercase;
-    
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
 }
 
 .menuitem {
-    text-align: center;
-    padding: 0;
+	text-align: center;
+	padding: 0;
 }
 
 .menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: #fafafa;
-    height: 100px;
-    padding-top: 20px;
-    
+	width: 100%;
+	text-decoration: none;
+	color: #fafafa;
+	height: 100px;
+	padding-top: 20px;
 }
 
 .menuitem span {
-    display: block;
-    width: 100%;
-    letter-spacing: 2px;
-    
+	display: block;
+	width: 100%;
+	letter-spacing: 2px;
 }
+
 
 /*--------------------------------------Nav transitions*/
 
-
-
 .hvr-sweep-to-top:before {
-    background-color: #fafafa;
-    height: 100%;
+	background-color: #fafafa;
+	height: 100%;
 }
 
 .menuitem a:hover {
-    color: #0f1113;
+	color: #0f1113;
 }
 
 a .footer-heading:hover {
-    text-decoration: underline;
-    color: #fafafa;
+	text-decoration: underline;
+	color: #fafafa;
 }
+
 
 /*-------------------------------------Content text*/
 
 .heading {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    letter-spacing: 2px;
-    padding: 1rem;
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	letter-spacing: 2px;
+	padding: 1rem;
 }
 
 .sub-heading {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 30px;
-    text-transform: uppercase;
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 30px;
+	text-transform: uppercase;
 }
 
 .content-text {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 26px;
-    font-weight: 300;
-    text-align: center;
-    padding: 1rem ;
-
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	padding: 1rem;
 }
+
+
 /*-------------------------------------Section about me*/
+
 .about-me-header {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    letter-spacing: 2px;
-    
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	letter-spacing: 2px;
 }
 
 .about-me-title {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
 }
+
 
 /*-------------------------------------Section gym info*/
 
 .gym-info {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
-.location-header{
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    letter-spacing: 2px;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    text-decoration: underline;
+.location-header {
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	letter-spacing: 2px;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	text-decoration: underline;
 }
 
 .address-title {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    padding: 1rem ;
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	padding: 1rem;
 }
 
 .address-text {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 28px;
-    font-weight: 300;
-    text-align: center;
-    padding: 1rem ;
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 28px;
+	font-weight: 300;
+	text-align: center;
+	padding: 1rem;
 }
-
 
 
 /*-------------------------------------Gym info carousel*/
 
 
 /* copied this code from https://www.hyde-design.co.uk/joomla-bites/80-create-a-css-slideshow-no-javascript-required#:~:text=If%20you're%20only%20after,slideshow%20using%20CSS%20trickery%20alone*/
+
 .fling-minislide {
-    width:100%;
-    height: auto;
-    padding-bottom: 30%;
-    overflow:hidden;
-    position:relative;
-    display: flex;
-    justify-content: center;
+	width: 100%;
+	height: auto;
+	padding-bottom: 30%;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	justify-content: center;
 }
 
 .fling-minislide img {
-    max-height: 500px;
-    object-fit: fill;
-    position:absolute;
-    animation:fling-minislide 20s infinite;
-    opacity:0;
-    
+	max-height: 500px;
+	object-fit: fill;
+	position: absolute;
+	animation: fling-minislide 20s infinite;
+	opacity: 0;
 }
 
-@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
-.fling-minislide img:nth-child(4){animation-delay:0s;}
-.fling-minislide img:nth-child(3){animation-delay:5s;}
-.fling-minislide img:nth-child(2){animation-delay:10s;}
-.fling-minislide img:nth-child(1){animation-delay:15s;}
+@keyframes fling-minislide {
+	25% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 0;
+	}
+}
+
+.fling-minislide img:nth-child(4) {
+	animation-delay: 0s;
+}
+
+.fling-minislide img:nth-child(3) {
+	animation-delay: 5s;
+}
+
+.fling-minislide img:nth-child(2) {
+	animation-delay: 10s;
+}
+
+.fling-minislide img:nth-child(1) {
+	animation-delay: 15s;
+}
+
 
 /*---------------------------------------------------------------Barbell classes*/
 
 .barbell-class {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 }
 
-.barbell-class
-h3 {
-    padding-left: 5px;
-    padding-right: 5px;
+.barbell-class h3 {
+	padding-left: 5px;
+	padding-right: 5px;
 }
+
 .cost-details {
-    padding: 0;
-    margin: 0;
-    background-color: #0f1113
+	padding: 0;
+	margin: 0;
+	background-color: #0f1113
 }
+
 .success-factor {
-    border: dashed 1px #fafafa;
-    padding: 5px;
+	border: dashed 1px #fafafa;
+	padding: 5px;
 }
 
 .pt-header {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    letter-spacing: 2px;
-    padding-top: 3rem;
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	letter-spacing: 2px;
+	padding-top: 3rem;
 }
 
 .factor-icon {
-    text-decoration: none;
-    font-size: 40px;
-    color: #fafafa;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
+	text-decoration: none;
+	font-size: 40px;
+	color: #fafafa;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
 }
 
-.class-details
-a {
-    
-    color: #fafafa;
+.class-details a {
+	color: #fafafa;
 }
+
+
 /*-----------------------------------------------------------------Barbell gear*/
 
 .barbell-gear-header {
-    background-image: url(../images/b+w\ background.jpg)
+	background-image: url(../images/b+w\ background.jpg)
 }
 
 .barbell-gear-video {
-    max-height:500px;
-    width: 100%;
+	max-height: 500px;
+	width: 100%;
 }
 
 .barbell-shirts {
-    padding-top: 5rem;
+	padding-top: 5rem;
 }
-
-
 
 
 /*------------------------------------------------------------------Contact Us*/
 
 .alert {
-    padding: 15px;
-    margin: 0;
-    background-color: #f44336;
-    color: white;
-    text-align: center;
+	padding: 15px;
+	margin: 0;
+	background-color: #f44336;
+	color: white;
+	text-align: center;
 }
 
-
 .closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
 }
 
 .closebtn:hover {
-  color: black;
+	color: black;
 }
 
 .contact-us a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .social-header {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    color: #fafafa;
-    font-size: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    letter-spacing: 2px;
-    padding: 1rem;
-    text-decoration: underline;
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	letter-spacing: 2px;
+	padding: 1rem;
+	text-decoration: underline;
 }
 
 
 /*---------------------------------------------------------------Footer*/
 
 .footer-col {
-    display: inline-block;
-    text-align: center;
-    margin: 0;
-    padding-top: 15px;
-    width: 100%;
+	display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding-top: 15px;
+	width: 100%;
 }
 
 .footer-col a {
-    text-decoration: none;
+	text-decoration: none;
 }
-
 
 .footer-heading {
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    color: #fafafa;
-    text-transform: uppercase;
+	font-family: "Big Shoulders Stencil Text", sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #fafafa;
+	text-transform: uppercase;
 }
 
-.social-icon i{
-    text-decoration: none;
-    font-size: 20px;
-    color: #fafafa;
-    text-align: center;
-    padding: 10px;
-    transition: all 0.20s ease-in-out;
-    -webkit-transition: all 0.20s ease-in-out;
-    -moz-transition: all 0.20s ease-in-out;
-    -o-transition: all 0.20s ease-in-out;
-    
+.social-icon i {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fafafa;
+	text-align: center;
+	padding: 10px;
+	transition: all 0.20s ease-in-out;
+	-webkit-transition: all 0.20s ease-in-out;
+	-moz-transition: all 0.20s ease-in-out;
+	-o-transition: all 0.20s ease-in-out;
 }
 
 .social-icon i:hover {
-    transform: scale(1.25);
-    color: #fafafa;
+	transform: scale(1.25);
+	color: #fafafa;
 }
+
 
 /*---------------------------------------------------------------Media Queries*/
 
-@media screen and (max-width: 800px){
-
-    #barbell-brothers-slide {
-        background-image: url(../images/screenshots/bbrothers_1.JPG);
-    }
-
-    #barbell-babes-slide {
-        background-image: url(../images/screenshots/bbabes_2.JPG);
-    }
-
-    #barbell-beast-slide {
-        background-image: url(../images/photos/bb_beast_logo.jpg);
-        background-position: center;
-    }
-
-    #barbell-gym-slide {
-        background-image: url(../images/photos/Logo4.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-
-    .fling-minislide{
-        min-height: 300px
-    }
-    .fling-minislide
-    img {
-        visibility: hidden;
-    }
+@media screen and (max-width: 800px) {
+	#barbell-brothers-slide {
+		background-image: url(../images/screenshots/bbrothers_1.JPG);
+	}
+	#barbell-babes-slide {
+		background-image: url(../images/screenshots/bbabes_2.JPG);
+	}
+	#barbell-beast-slide {
+		background-image: url(../images/photos/bb_beast_logo.jpg);
+		background-position: center;
+	}
+	#barbell-gym-slide {
+		background-image: url(../images/photos/Logo4.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.fling-minislide {
+		min-height: 300px
+	}
+	.fling-minislide img {
+		visibility: hidden;
+	}
 }
