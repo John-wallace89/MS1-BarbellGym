@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 
-/*--------------------------------------Colors*/
+/*--------------------------------------Backgrounds*/
 .bg-color-header {
     background-image: url(../images/b+w\ background.jpg);
     background-repeat: no-repeat;
@@ -133,9 +133,9 @@ a .footer-heading:hover {
     color: #fafafa;
 }
 
-/*-------------------------------------Section Ethos*/
+/*-------------------------------------Content text*/
 
-.home-header {
+.heading {
     font-family: "Big Shoulders Stencil Text", sans-serif;
     color: #fafafa;
     font-size: 40px;
@@ -147,7 +147,7 @@ a .footer-heading:hover {
     padding: 1rem;
 }
 
-.ethos-title {
+.sub-heading {
     font-family: "Big Shoulders Stencil Text", sans-serif;
     color: #fafafa;
     font-size: 30px;
@@ -157,7 +157,7 @@ a .footer-heading:hover {
     text-transform: uppercase;
 }
 
-.ethos-text {
+.content-text {
     font-family: "Big Shoulders Stencil Text", sans-serif;
     color: #fafafa;
     font-size: 26px;
@@ -185,6 +185,7 @@ a .footer-heading:hover {
     font-size: 30px;
     font-weight: 400;
     text-align: center;
+    text-transform: uppercase;
 
 }
 
