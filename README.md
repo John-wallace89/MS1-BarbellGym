@@ -117,6 +117,12 @@ No errors were found
 
 <h3>Testing user stories</h3>
 
+1. [Home]()
+2. [The Wolf Pit]()
+3. [What We Do]()
+4. [Barbell Gear]()
+5. [Contact Us]()
+
 1. * User Story 1<br>
    *As a business, I want to provide an introduction to my business and brand for new
    customers.*
@@ -140,3 +146,71 @@ No errors were found
    iii. As a customer, you land on the image immediatley are shown the brand and what the business is.
    As you scroll through the homepage you are provided with text providing more detail on what the business
    is and wo runs it.
+
+2. * User Story 4<br>
+     As a customer, I want to know what the facilties for the
+     Barbell gym like and what is available to me.
+
+     i. As a customer, I navigate to the 'The Wolf Pit' page and i'm presented with a slideshow of images
+     of the gym so I can see waht it looks like and what equipment is there. this is followed by text describing
+     what kind of gym it is.  
+
+   * User Story 5<br>
+     As a customer, I would like to know the location of the 
+     gym, it's address and it's location on google maps.
+
+     ii. As a customer on the 'The Wolf Pit' gym, When I scroll down, I can see a clear section labelled 'Location'
+     with the address and embedded google maps with the location of the gym so I can see exactly where the gym is located.
+
+   * User Story 6<br>
+     As a business I would like to show potential customers
+     what facilities are available at the gym and provide the
+     gym location so the gym is easy to find.
+
+     iii. As a business, the location of my business is clearly presented on an embedded google maps, and
+     the address is provided.
+
+3. * User Story 7<br>
+     As a customer I would like to know what services are available
+     to me, what they include and how much they are.
+
+     i. As a customer, as I navigate to the 'What We Do' page of the site, i'm presented with a strong introduction
+     informing me of what I need to succeed in my fitness goals, followed by information on the variety of classes.
+     As I scroll down I can see a detailed description of each class on offer with accompanying images of progress
+     photos from existing clients and images from the class building confidence in the service being provided and
+     what I can expect if I attend. This is followed by the duration and cost highlighted in bold font to draw my 
+     attention to essential information.
+
+   * User Story 8<br>
+     As a customer I want to know when I can access these services and how I can enquire about 
+     them.
+
+     ii. As a customer, I can see a link provided beneath each class option with a CTA to 'click here' directing
+     me to the contact us page where I can enquire about any of the services provided. This is provided beneath each
+     class so the customer does not have to scroll through the whole page if they wish to enquire.
+
+   * User Story 9<br>
+     As a business, I want customers to see the range of services
+     provided, how much they cost, when they're happening, and how to enquire about them.
+
+     iii. As a business, I'm providing a detailed description of each of our signature classes and 121 PT info,
+     accompanied by supporting images showing the success of these services. Cost and duration are clearly shown
+     beneath each service section, directing customers to the important information.
+
+4. * User Story 10<br>
+     As a customer, I want to see the what merchandise is available from
+     and how I can enquire about obtaining/purchasing this merchandise.
+
+     i. As a customer, when I navigate to the 'Barbell Gear' page, i'm presented with a clear title and a
+     video advertising the gear available for purchase. As I scroll down I can see clearly each product, 
+     it's price and a link directing us to the contact us page beneath item informing me of how to get in touch if I wish to
+     make a purchase.
+
+   * User Story 11<br>
+     As a business, I want to be able to advertise the merchandise I have available, provide
+     information on this merchandise and advise clients how they it be obtained.
+
+     ii. As a business, my products are clearly shown/advertised through the use of imagery and a video.
+     the cost and any offer are clear and in bold directing the customers attention to key information,
+     with a link to the contac us page beneath each item so the customer doesn't have to scroll through the
+     full page to enquire about a product.
