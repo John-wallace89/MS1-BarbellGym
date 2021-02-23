@@ -92,3 +92,5 @@ of the site as the JS query for the hover inmation on the nav bar.
 
 W3 schools.com - https://www.w3schools.com/howto/howto_css_zoom_hover.asp used for hover animation for social links 
 in footer.
+
+Free formatter - https://www.freeformatter.com/css-beautifier.html used to beautify CSS3 code
