@@ -1,39 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 
-/*---------------------------------------------------------------Media Queries*/
-
-@media screen and (max-width: 800px){
-
-    #barbell-brothers-slide {
-        background-image: url(../images/screenshots/bbrothers_1.JPG);
-    }
-
-    #barbell-babes-slide {
-        background-image: url(../images/screenshots/bbabes_2.JPG);
-    }
-
-    #barbell-beast-slide {
-        background-image: url(../images/photos/bb_beast_logo.jpg);
-        background-position: center;
-    }
-
-    #barbell-gym-slide {
-        background-image: url(../images/photos/Logo4.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-
-    .fling-minislide{
-        min-height: 300px
-    }
-    .fling-minislide
-    img {
-        visibility: hidden;
-    }
-}
-
 /*--------------------------------------Colors*/
 .bg-color-header {
     background-image: url(../images/b+w\ background.jpg);
@@ -440,4 +407,37 @@ a {
 .social-icon i:hover {
     transform: scale(1.25);
     color: #fafafa;
+}
+
+/*---------------------------------------------------------------Media Queries*/
+
+@media screen and (max-width: 800px){
+
+    #barbell-brothers-slide {
+        background-image: url(../images/screenshots/bbrothers_1.JPG);
+    }
+
+    #barbell-babes-slide {
+        background-image: url(../images/screenshots/bbabes_2.JPG);
+    }
+
+    #barbell-beast-slide {
+        background-image: url(../images/photos/bb_beast_logo.jpg);
+        background-position: center;
+    }
+
+    #barbell-gym-slide {
+        background-image: url(../images/photos/Logo4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    .fling-minislide{
+        min-height: 300px
+    }
+    .fling-minislide
+    img {
+        visibility: hidden;
+    }
 }
