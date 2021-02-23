@@ -330,6 +330,19 @@ a .footer-heading:hover {
 	background-image: url(../images/b+w\ background.jpg)
 }
 
+.barbell-gear-sub-heading {
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+	color: #fafafa;
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	letter-spacing: 2px;
+	padding: 1rem;
+}
+
+
 .barbell-gear-video {
 	max-height: 500px;
 	width: 100%;
