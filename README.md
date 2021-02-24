@@ -1,6 +1,6 @@
 <h1 style="text-align: center">The Barbell Gym</h1>
 
-![barbell gym logo](https://github.com/John-wallace89/MS1-BarbellGym/blob/83dd97591d278eed7dd2d7e28557c89b327e978c/assets/images/BB_logo2_readme.png)
+<span style="position: center">![BB_logo2](https://user-images.githubusercontent.com/75330172/109040903-5a913500-76c6-11eb-9729-be1a71e37197.jpg)</span>
 
 This is my submission for Milestone project 1. The Barbell Gym is the main site for the Barbell Gym business,
 an independently owned gym providing various strength and fitness classes and a line of merchandise. The purpose 
@@ -61,8 +61,7 @@ information on this merchandise and advise clients how they it be obtained.
 * Colour scheme - Main colours of the site are black and white, inkeeping with the brand logo and colour scheme.
 
 * Typography - Big shoulders stencil text has been used for titles as it is eye-catching and brings a different
-dimension to a black & white site. Roboto has been used for paragraphs and content as it is a clear font. back-up is
-Sans-serif, should either of the other fonts fail to load.
+dimension to a black & white site. back-up is Sans-serif, should either of the other fonts fail to load.
 
 * Imagery - The logo/hero image is used to promote brand awareness. It is permanently fixed in the middle of the header
 to draw the attention of the user back to the brand as they navigate through the site. We've also incorporated images
@@ -224,13 +223,13 @@ No errors were found
 * Bugs<br>
      3 bugs were found:<br>
      1. Bug - Media query wasn't updated with new file path when CSS was being tidied and
-     screenshots folder was removed from assets folder [screenshot for bug](https://github.com/John-wallace89/MS1-BarbellGym/blob/c803cd9a106dbf7ca7308387e5d000bed413bf97/documentation/bugs/bug_1_iphonex_barbellclasses.JPG).
+     screenshots folder was removed from assets folder. [screenshot bug 1](https://user-images.githubusercontent.com/75330172/109042123-ba3c1000-76c7-11eb-9d01-9738129987db.JPG).
      Fix - updated file path in media query in CSS.
      2. Bug - Title above video isn't rendering correctly above video on mobile (text is wrapping)
-     [screenshot for bug 2](https://github.com/John-wallace89/MS1-BarbellGym/blob/8b275ee9e22a99ce03adaf637792253fe79f6880/documentation/bugs/bug_2_galaxys5_barbellgear.JPG)
+     [screenshot for bug 2](https://user-images.githubusercontent.com/75330172/109042508-30d90d80-76c8-11eb-9eeb-a62048e1d4d8.JPG)
      Fix - created class to target heading making font-size smaller allowing it to render on one line for all devices.
      3. Bug - accidentally deleted warning message from contact us page when updating header for all pages.
-     [screenshot for bug 3](https://github.com/John-wallace89/MS1-BarbellGym/blob/8b275ee9e22a99ce03adaf637792253fe79f6880/documentation/bugs/bug_3screenshot_contactus_desktop_1.JPG)
+     [screenshot for bug 3](https://user-images.githubusercontent.com/75330172/109042857-92997780-76c8-11eb-8ff5-65126ffd1eb4.JPG))
      Fix - added warning message back into contact us page.
 
 * Changes from design: <br>
@@ -242,14 +241,22 @@ wireframes. This is because there are 4 product groups total and no shop functio
 it seemed more appropriate to make more space for images and information about the products rather than  give
 it a typical shop layout.
 
+* Potential enhancements:<br>
+1. In order to advertise more of the gym, the CSS slideshows could be replaced with a carousel using JS. This would
+allow us to upload more photos of the facilities, gear and classes.
+2. The Barbell gear could be turned into a Barbell'Shop' where customers might be able to place orders via the site.
+This is dependent on business behaviour going forward.
+3. 1 user enhancement could be the introduction of a booking calendar allowing potential clients to see when classes
+start and what slots are available for Personal training sessions allowing bookings to take place.
+
+
 <h1 style="text-align: center">Deployment</h1>
 
 <h3>GitHub Pages</h3>
 The project was deployed to GitHub Pages using the following steps...
 
-Log in to GitHub and locate the GitHub Repository
+<h4>Log in to GitHub and locate the GitHub Repository</h4>
 At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
 Scroll down the Settings page until you locate the "GitHub Pages" Section.
 Under "Source", click the dropdown called "None" and select "Master Branch".
 The page will automatically refresh.
@@ -257,10 +264,11 @@ Scroll back down through the page to locate the now published site link in the "
 Forking the GitHub Repository
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-Log in to GitHub and locate the GitHub Repository
+<h4>Log in to GitHub and locate the GitHub Repository<h4>
 At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 You should now have a copy of the original repository in your GitHub account.
-Making a Local Clone
+
+<h4>Making a Local Clone</h4>
 Log in to GitHub and locate the GitHub Repository
 Under the repository name, click "Clone or download".
 To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
@@ -275,7 +283,6 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 <h1 style="text-align: center">Credits</h1>
 
@@ -301,7 +308,8 @@ All Images were provided by the Product Owner, Gavin Smith and the Barbell Gym w
 of the background image was taken from Raw Pixel.
 
 <h3>Acknowledgements</h3>
-My mentor Aaron for his support and expertise.<br>
+My mentor Aaron for his support and expertise.
+
 
 Gavin Smith and the Barbell Gym for trusting me with their brand and letting me use it for this
 project.
