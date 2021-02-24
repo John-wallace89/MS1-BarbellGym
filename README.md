@@ -1,6 +1,6 @@
 <h1 style="text-align: center">The Barbell Gym</h1>
 
-<span style="position: center">![BB_logo2](https://user-images.githubusercontent.com/75330172/109040903-5a913500-76c6-11eb-9729-be1a71e37197.jpg)</span>
+![screenshot_wolfpit_desktop_1](https://user-images.githubusercontent.com/75330172/109046216-67188c00-76cc-11eb-948f-a1b3e74324fb.JPG)
 
 This is my submission for Milestone project 1. The Barbell Gym is the main site for the Barbell Gym business,
 an independently owned gym providing various strength and fitness classes and a line of merchandise. The purpose 
