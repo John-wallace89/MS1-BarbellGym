@@ -186,7 +186,7 @@ a .footer-heading:hover {
 }
 
 
-/*-------------------------------------Section gym info*/
+/*-------------------------------------Section barbell gym*/
 
 .gym-info {
 	padding: 0;
@@ -223,6 +223,12 @@ a .footer-heading:hover {
 	font-weight: 300;
 	text-align: center;
 	padding: 1rem;
+}
+
+.map-responsive
+iframe {
+width: 100%;
+height: 400px;
 }
 
 
