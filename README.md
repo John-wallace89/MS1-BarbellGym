@@ -106,9 +106,10 @@ Results picked up 'illegal' characters in the favicon linked images in the head 
 Results picked up possible misuse of aria-label attribute - these were removed from the head of all pages.<br>
 Results picked up obsolete attribute assigned to iframe element in barbellgym.html - attribute removed.<br>
 Results picked up missing alt attrtibute from img element in barbellclasses.html - alt added.<br>
+Results picked up unexpected characters '%' and 'px' against height and width attributes assigned to iframe element - width and height removed
+from html and styled against class/element in css.
+Results advised 'h1' element should only be used top level heading only - page updated so only 1 header has 'h1' tag and others have 'h2'.<br>
 
-Results advised 'h1' element should only be used top level heading only. No action was taken as 'h1' element was only assigned to top level headings or important information.<br>
-Results advised unexpected characters were picked up as '%' and 'px' were found against height and width attributes assigned to img elements in barbellclasses.html. No action was taken as these values were needed to correctly size the elements they were assigned to.<br>
 
 * [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator)
 
@@ -130,6 +131,9 @@ No errors were found
    an introductory message about the business, the ethos and accompanying images. You can see the site is 
    structured around the brand.
 
+   ![screenshot_home_desktop_1](https://user-images.githubusercontent.com/75330172/109138010-cc629080-7751-11eb-8d99-3e4fcd986c09.JPG)
+   ![screenshot_home_pixel2_1](https://user-images.githubusercontent.com/75330172/109138264-16e40d00-7752-11eb-8494-ed826f3a4150.JPG)
+
 * User Story 2<br>
    *As a personal trainer/business I want to provide a bit of background to myself and my
    qualifications, so that customers can feel confident in me and my brand.*
@@ -137,6 +141,9 @@ No errors were found
    ii. As a customer lands on the homepage, there is an introduction to both the business and the business
    owner, with details about the owners experience and qualifications in order to provide confidence in the
    product.
+
+   ![screenshot_home_desktop_2](https://user-images.githubusercontent.com/75330172/109138436-4430bb00-7752-11eb-9db1-1500b5f21ae2.JPG)
+![screenshot_home_pixel2_3](https://user-images.githubusercontent.com/75330172/109138469-4e52b980-7752-11eb-849e-6551c597a820.JPG)
 
 * User Story 3<br>
    *As a customer, I want to be able to land on the homepage and know what is the 'Barbell
@@ -146,6 +153,8 @@ No errors were found
    As you scroll through the homepage you are provided with text providing more detail on what the business
    is and wo runs it.
 
+   ![screenshot_home_Ipadpro_1](https://user-images.githubusercontent.com/75330172/109138677-878b2980-7752-11eb-839a-b9badc207f8e.JPG)
+
 * User Story 4<br>
      As a customer, I want to know what the facilties for the
      Barbell gym like and what is available to me.
@@ -153,6 +162,10 @@ No errors were found
      i. As a customer, I navigate to the 'The Wolf Pit' page and i'm presented with a slideshow of images
      of the gym so I can see waht it looks like and what equipment is there. this is followed by text describing
      what kind of gym it is.  
+
+     ![screenshot_wolfpit_desktop_2a](https://user-images.githubusercontent.com/75330172/109140703-c8843d80-7754-11eb-89a6-b115c9051ee9.JPG)
+     ![screenshot_wolfpit_desktop_2b](https://user-images.githubusercontent.com/75330172/109140715-ccb05b00-7754-11eb-9e7d-d23603147200.JPG)
+     ![screenshot_wolfpit_desktop_2c](https://user-images.githubusercontent.com/75330172/109140724-cf12b500-7754-11eb-9bfe-816e6ebf9dc8.JPG)
 
 * User Story 5<br>
      As a customer, I would like to know the location of the 
@@ -167,7 +180,10 @@ No errors were found
      gym location so the gym is easy to find.
 
      iii. As a business, the location of my business is clearly presented on an embedded google maps, and
-     the address is provided.
+     the address is provided.     
+
+     ![screenshot_wolfpit_desktop_3](https://user-images.githubusercontent.com/75330172/109140838-efdb0a80-7754-11eb-8bd7-fbed72c30f74.JPG)
+     ![screenshot_wolfpit_iphone5_3](https://user-images.githubusercontent.com/75330172/109140856-f5d0eb80-7754-11eb-83ca-93e9bce7af2f.JPG)
 
 * User Story 7<br>
      As a customer I would like to know what services are available
@@ -180,6 +196,9 @@ No errors were found
      what I can expect if I attend. This is followed by the duration and cost highlighted in bold font to draw my 
      attention to essential information.
 
+     ![screenshot_whatwedo_desktop_3](https://user-images.githubusercontent.com/75330172/109141398-9aebc400-7755-11eb-9780-415cae3d2773.JPG)
+     ![screenshot_whatwedo_desktop_4](https://user-images.githubusercontent.com/75330172/109141406-9d4e1e00-7755-11eb-94d0-5c61f688e544.JPG)
+     ![screenshot_whatwedo_IphoneX_6](https://user-images.githubusercontent.com/75330172/109141725-f6b64d00-7755-11eb-903a-fca2d6510de5.JPG)
 * User Story 8<br>
      As a customer I want to know when I can access these services and how I can enquire about 
      them.
@@ -195,6 +214,9 @@ No errors were found
      iii. As a business, I'm providing a detailed description of each of our signature classes and 121 PT info,
      accompanied by supporting images showing the success of these services. Cost and duration are clearly shown
      beneath each service section, directing customers to the important information.
+
+     ![screenshot_whatwedo_desktop_8](https://user-images.githubusercontent.com/75330172/109141859-1e0d1a00-7756-11eb-9676-3a8f5645aaeb.JPG)
+     ![screenshot_whatwedo_IphoneX_4](https://user-images.githubusercontent.com/75330172/109141883-22d1ce00-7756-11eb-84c4-effbbd7afc57.JPG)
 
 * User Story 10<br>
      As a customer, I want to see the what merchandise is available from
@@ -213,7 +235,11 @@ No errors were found
      the cost and any offer are clear and in bold directing the customers attention to key information,
      with a link to the contac us page beneath each item so the customer doesn't have to scroll through the
      full page to enquire about a product.
-
+    ![screenshot_barbellgear_desktop_1](https://user-images.githubusercontent.com/75330172/109142117-688e9680-7756-11eb-8e6e-eeff0c6ad53f.JPG)
+    ![screenshot_barbellgear_desktop_2](https://user-images.githubusercontent.com/75330172/109142123-6a585a00-7756-11eb-8e73-bf70335f6f58.JPG)
+    ![screenshot_barbellgear_desktop_4](https://user-images.githubusercontent.com/75330172/109142159-70e6d180-7756-11eb-82ad-ae692c2d8ef7.JPG)
+    ![screenshot_barbellgear_desktop_5](https://user-images.githubusercontent.com/75330172/109142212-80feb100-7756-11eb-84bf-6f3f75c54896.JPG)
+    ![screenshot_barbellgear_galaxys5_5](https://user-images.githubusercontent.com/75330172/109142239-8a881900-7756-11eb-88af-c2caf1f332dd.JPG)
 <h3>Further testing:</h3>
      Tested extensively over a range of devices using dev tools and tested on Safari, Chrome and Edge.
      See screenshots from testing [here](https://github.com/John-wallace89/MS1-BarbellGym/blob/c803cd9a106dbf7ca7308387e5d000bed413bf97/documentation/screenshots).<br>
@@ -256,28 +282,30 @@ start and what slots are available for Personal training sessions allowing booki
 The project was deployed to GitHub Pages using the following steps...
 
 <h4>Log in to GitHub and locate the GitHub Repository</h4>
-At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-Scroll down the Settings page until you locate the "GitHub Pages" Section.
-Under "Source", click the dropdown called "None" and select "Master Branch".
-The page will automatically refresh.
-Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-Forking the GitHub Repository
+
+* At the top of the repository section, locate the "Settings" Button on the menu.
+* Scroll down the settings page until you find the "GitHub Pages" section.
+* Under "Source", click the dropdown and select "Master Branch".The page will refresh.
+* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+<h3>Forking the GitHub Repository</h3>
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 <h4>Log in to GitHub and locate the GitHub Repository<h4>
-At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-You should now have a copy of the original repository in your GitHub account.
+
+* At the top of the repository section just above the "Settings" button on the menu, click the "Fork" button.
+  The original repository in your GitHub account should now have duplicated.
 
 <h4>Making a Local Clone</h4>
-Log in to GitHub and locate the GitHub Repository
-Under the repository name, click "Clone or download".
-To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-Open Git Bash
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press Enter. Your local clone will be created.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+* Log in to GitHub and locate the GitHub repository, under the repository name, click "clone or download".
+* To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+* Open Git Bash
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type git clone, and then paste the URL you copied in Step 2.
+   * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+* Press Enter. Your local clone will be created.
+   * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
